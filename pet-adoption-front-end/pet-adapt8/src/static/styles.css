@@ -1,0 +1,22 @@
+:root {
+  --bodyBg: #948989;
+  --menuBg: #6bcfb1;
+  --progressBar: #54d1db;
+}
+
+body {
+  background: var(--bodyBg);
+  
+}
+
+#menu {
+  background: var(--menuBg);
+}
+
+
+
+/* Overrides default styled accordion styles (too much bottom padding) */
+.ui.styled.accordion .content {
+  margin: 0;
+  padding: 0.5em 1em 0.75em !important;
+}
